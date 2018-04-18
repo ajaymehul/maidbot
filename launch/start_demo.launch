@@ -1,0 +1,10 @@
+<launch>
+    
+  <node pkg="maidbot" type="bot_tf_broadcaster" name="bot1_tf_broadcaster"/>
+  <node pkg="tf" type="static_transform_publisher" name="lidar" args="0 0 1 0 0 0 1 bot lidar 10" />
+  <node pkg="maidbot" type="lidar" name="lidar1" />
+  <arg name="rviz_file" default="$(find maidbot)/default.rviz" />
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(arg rviz_file)" />
+</launch>
+
+  
