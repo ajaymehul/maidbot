@@ -15,7 +15,7 @@ source devel/setup.bash
 Go to your src folder and clone this repo:
 ```
 cd src
-git clone https::/github.com/ajaymehul/maidbot_tf.git
+git clone https::/github.com/ajaymehul/maidbot.git
 ```
 Build the package using catkin_make from root workspace directory:
 ```
