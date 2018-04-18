@@ -1,4 +1,4 @@
-# maidbot_tf
+# maidbot
 
 ## Getting Started
 
